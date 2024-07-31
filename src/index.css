@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-body{
+
+body {
   font-family: "Raleway", sans-serif;
 }
+
 :root {
   --neutral-50: #E8E9EA;
   --neutral-100: #B8BABE;
@@ -15,9 +17,6 @@ body{
   --neutral-900: #0B0D12;
 }
 
-.neutral-50 {
-  color: var(--neutral-50);
-}
 
 .neutral-100 {
   color: var(--neutral-100);
@@ -55,17 +54,28 @@ body{
   color: var(--neutral-900);
 }
 
+.categorieButton {
+  background-color: var(--neutral-50);
+}
 
+.collectionImg {
+  width: 100%;
+  height: 240px;
+}
+
+.collectionCard {
+  flex: '1 0 50%'
+}
 
 /* responsive */
 
 @media (min-width: 1200px) {
-  .heroImage{
+  .heroImage {
     margin-top: 2%;
     margin-left: -4%;
   }
 
-  .mainTitle{
+  .mainTitle {
     font-size: 130px !important;
   }
 }
@@ -73,23 +83,23 @@ body{
 
 @media (max-width: 1399px) {
   .mainTitle {
-      font-size: 96px !important;
+    font-size: 96px !important;
   }
 }
 
 @media (max-width: 1199px) {
   .mainTitle {
-      font-size: 78px !important;
+    font-size: 78px !important;
   }
 
-  .heroImage{
+  .heroImage {
     margin-top: 2%;
     margin-left: -9%;
   }
 }
 
 @media (max-width: 992px) {
-  .heroImage{
+  .heroImage {
     margin-top: 2%;
     margin-left: 0;
   }
@@ -97,12 +107,16 @@ body{
 
 @media (max-width: 768px) {
   .mainTitle {
-      font-size: 86px !important;
+    font-size: 86px !important;
   }
 }
 
 @media (max-width: 518px) {
   .mainTitle {
-      font-size: 52px !important;
+    font-size: 52px !important;
+  }
+
+  .collectionCard {
+    flex: 1 0 51%
   }
 }

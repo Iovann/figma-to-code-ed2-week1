@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
     return (
-        <div className='row'>
+        <div className='row mb-5'>
             <div className="col-lg-7">
                 <h1 className='mainTitle fw-normal neutral-600'>See the NFT new world</h1>
                 <p className='w-75'>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, di</p>
