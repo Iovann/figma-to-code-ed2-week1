@@ -14,7 +14,6 @@ const SellCard = ({image, cardTitle}) => {
           <p class="card-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
         </div>
       </div>
-
     </div>
   )
 }
