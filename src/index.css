@@ -54,7 +54,7 @@ body {
   color: var(--neutral-900);
 }
 
-.categorieButton {
+.neutralBackground {
   background-color: var(--neutral-50);
 }
 
@@ -63,8 +63,12 @@ body {
   height: 240px;
 }
 
-.collectionCard {
-  flex: '1 0 50%'
+.build{
+  background-image: url("./assets/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+  background-position: center;
 }
 
 /* responsive */
@@ -120,3 +124,6 @@ body {
     flex: 1 0 51%
   }
 }
+
+
+/* Animations */

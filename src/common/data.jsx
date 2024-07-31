@@ -20,3 +20,26 @@ export const Collections =[
     }, 
 
 ]
+
+export const Sell = [
+   
+    {
+        image:"./assets/icons/wallet.svg",
+        cardTitle: "Set up your wallet",
+    },
+
+    {
+        image:"./assets/icons/cloud.svg",
+        cardTitle: "Add your NFT’s",
+    },
+
+    {
+        image:"./assets/icons/label.svg",
+        cardTitle: "Promote your NFT’s",
+    },
+
+    {
+        image:"./assets/icons/bitcoin.svg",
+        cardTitle: "Sell your NFT’s",
+    },
+]
