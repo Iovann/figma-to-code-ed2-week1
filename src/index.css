@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: "Raleway", sans-serif;
+}
+:root {
+  --neutral-50: #E8E9EA;
+  --neutral-100: #B8BABE;
+  --neutral-200: #96989E;
+  --neutral-300: #666A72;
+  --neutral-400: #484D56;
+  --neutral-500: #1A202C;
+  --neutral-600: #181D28;
+  --neutral-700: #12171F;
+  --neutral-800: #0E1218;
+  --neutral-900: #0B0D12;
+}
+
+.neutral-50 {
+  color: var(--neutral-50);
+}
+
+.neutral-100 {
+  color: var(--neutral-100);
+}
+
+.neutral-200 {
+  color: var(--neutral-200);
+}
+
+.neutral-300 {
+  color: var(--neutral-300);
+}
+
+.neutral-400 {
+  color: var(--neutral-400);
+}
+
+.neutral-500 {
+  color: var(--neutral-500);
+}
+
+.neutral-600 {
+  color: var(--neutral-600);
+}
+
+.neutral-700 {
+  color: var(--neutral-700);
+}
+
+.neutral-800 {
+  color: var(--neutral-800);
+}
+
+.neutral-900 {
+  color: var(--neutral-900);
+}
+
+
+
+/* responsive */
+
+@media (min-width: 1200px) {
+  .heroImage{
+    margin-top: 2%;
+    margin-left: -4%;
+  }
+
+  .mainTitle{
+    font-size: 130px !important;
+  }
+}
+
+
+@media (max-width: 1399px) {
+  .mainTitle {
+      font-size: 96px !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .mainTitle {
+      font-size: 78px !important;
+  }
+
+  .heroImage{
+    margin-top: 2%;
+    margin-left: -9%;
+  }
+}
+
+@media (max-width: 992px) {
+  .heroImage{
+    margin-top: 2%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+      font-size: 86px !important;
+  }
+}
+
+@media (max-width: 518px) {
+  .mainTitle {
+      font-size: 52px !important;
+  }
+}

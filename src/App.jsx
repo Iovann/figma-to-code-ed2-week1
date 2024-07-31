@@ -1,12 +1,14 @@
 import React from "react"
-
+import Navbar from "./components/Navbar"
+import HeroSection from "./components/HeroSection"
 function App() {
 
   return (
     <>
-     <div className="container">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic commodi nihil necessitatibus itaque, veniam facilis quos recusandae voluptatum molestias voluptas error fuga impedit totam est natus fugiat nisi tempore alias.
-     </div>
+      <Navbar />
+      <section className="container">
+        <HeroSection/>
+      </section>
     </>
   )
 }
