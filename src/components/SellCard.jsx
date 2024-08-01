@@ -2,7 +2,7 @@ import React from 'react'
 
 const SellCard = ({image, cardTitle}) => {
   return (
-    <div className="col-lg-3 col-md-6 col-9">
+    <div className="col-lg-3 col-md-6 col-10">
       <div class="card shadow-sm pt-3 px-2 neutralBackground border-0 rounded-4">
         <div class="card-body">
           <p>
