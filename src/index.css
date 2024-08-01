@@ -17,43 +17,6 @@ body {
   --neutral-900: #0B0D12;
 }
 
-
-.neutral-100 {
-  color: var(--neutral-100);
-}
-
-.neutral-200 {
-  color: var(--neutral-200);
-}
-
-.neutral-300 {
-  color: var(--neutral-300);
-}
-
-.neutral-400 {
-  color: var(--neutral-400);
-}
-
-.neutral-500 {
-  color: var(--neutral-500);
-}
-
-.neutral-600 {
-  color: var(--neutral-600);
-}
-
-.neutral-700 {
-  color: var(--neutral-700);
-}
-
-.neutral-800 {
-  color: var(--neutral-800);
-}
-
-.neutral-900 {
-  color: var(--neutral-900);
-}
-
 .neutralBackground {
   background-color: var(--neutral-50);
 }
@@ -64,7 +27,7 @@ body {
 }
 
 .build{
-  background-image: url("/assets/images/background.png") !important;
+  background-image: url("/assets/images/background.webp") !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
@@ -129,7 +92,7 @@ body {
 /* Animations */
 
 .card {
-  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  background-image: linear-gradient(163deg, #ff0075 0%, #8a00ff 100%);
   border-radius: 20px;
   transition: all .3s;
  }

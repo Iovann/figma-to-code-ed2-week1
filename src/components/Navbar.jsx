@@ -11,7 +11,7 @@ const Navbar = () => {
         <div>
             <nav className="navbar navbar-expand-lg mb-5 shadow-none navbar-before-scroll">
                 <div className="container">
-                    <a className="navbar-brand align-items-center">
+                    <a className="navbar-brand align-items-center" href='#'>
                         <img src="/assets/icons/logo.svg" className='img-fluid' alt="Logo" />
                     </a>
                     <button className="navbar-toggler" onClick={handleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
