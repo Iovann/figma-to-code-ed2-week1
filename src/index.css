@@ -25,7 +25,7 @@ body {
 }
 
 .build{
-  background-image: url("/assets/images/background.web");
+  background-image: url("/assets/images/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-clip: border-box;
