@@ -37,7 +37,7 @@ const HeroSection = () => {
                         transition={{ duration: 0.5 }}
                         layout // Ajout de `layout`
                     >
-                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={300} height={400} />
+                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={280} height={380} />
                     </motion.div>
                 </div>
             </div>
