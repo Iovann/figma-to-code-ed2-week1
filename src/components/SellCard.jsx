@@ -10,7 +10,7 @@ const SellCard = ({image, cardTitle}) => {
               <img src={image} alt="card-image"  width={30} height={30}/>
             </span>
           </p>
-          <h5 class="card-title fw-bold py-2">{cardTitle}</h5>
+          <span class="card-title fw-bold py-2 fs-5">{cardTitle}</span>
           <p class="card-text mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
         </div>
       </div>

@@ -14,7 +14,7 @@ const HeroSection = () => {
                 <p className='w-75'>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, di</p>
                 <p>
                     <span>Discover Vow</span>
-                    <img src="/assets/icons/next_arrow.svg" alt="" className='img-gluid mx-3' />
+                    <img src="/assets/icons/next_arrow.svg" alt="" className='img-fluid mx-3' width={48} height={48} />
                 </p>
             </div>
             <div className="col-lg-5 heroImage">
@@ -27,7 +27,7 @@ const HeroSection = () => {
                         <p className='text-end'>
                             <img src="./assets/icons/crown.svg" alt="" className='img-fluid' width={157.44} height={116.49} /><br />
                         </p>
-                        <img src="./assets/images/machine.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={287.58} height={442.29} />
+                        <img src="./assets/images/machine.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={300} height={400} />
                     </motion.div>
 
                     <div className="col-6"
@@ -35,7 +35,7 @@ const HeroSection = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1.5 }}
                     >
-                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={287.58} height={442.29}/>
+                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={300} height={400}/>
                     </div>
                 </div>
             </div>
