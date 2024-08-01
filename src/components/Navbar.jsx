@@ -12,11 +12,11 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg mb-5 shadow-none navbar-before-scroll">
                 <div className="container">
                     <a className="navbar-brand align-items-center" href='#'>
-                        <img src="/assets/icons/logo.svg" className='img-fluid' alt="Logo" />
+                        <img src="/assets/icons/logo.svg" className='img-fluid' alt="Logo" width={36} height={35.39}/>
                     </a>
                     <button className="navbar-toggler" onClick={handleClick} type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
                         {
-                            menuStatus ? <span className=""><img src="./assets/icons/menu.svg" alt="Menu" /></span> : <span className=""><img src="./assets/icons/close_button.svg" alt="Close" /></span>
+                            menuStatus ? <span className=""><img src="./assets/icons/menu.svg" alt="Menu" width={20} height={20}/></span> : <span className=""><img src="./assets/icons/close_button.svg" alt="Close" width={20} height={20}/></span>
                         }
                     </button>
                     <div className="collapse navbar-collapse justify-content-between fw-semibold" id="navbar">

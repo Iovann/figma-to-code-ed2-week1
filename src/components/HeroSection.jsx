@@ -1,5 +1,5 @@
 import React from 'react'
-import { motion } from 'framer-motion';
+import { motion, px } from 'framer-motion';
 
 
 const HeroSection = () => {
@@ -25,9 +25,9 @@ const HeroSection = () => {
                         transition={{ duration: 1.5 }}
                     >
                         <p className='text-end'>
-                            <img src="./assets/icons/crown.svg" alt="" className='img-fluid' /><br />
+                            <img src="./assets/icons/crown.svg" alt="" className='img-fluid' width={157.44} height={116.49} /><br />
                         </p>
-                        <img src="./assets/images/machine.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' />
+                        <img src="./assets/images/machine.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={287.58} height={442.29} />
                     </motion.div>
 
                     <div className="col-6"
@@ -35,7 +35,7 @@ const HeroSection = () => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1.5 }}
                     >
-                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' />
+                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={287.58} height={442.29}/>
                     </div>
                 </div>
             </div>
