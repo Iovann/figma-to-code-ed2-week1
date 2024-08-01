@@ -1,6 +1,5 @@
 import React from 'react'
-import { motion, px } from 'framer-motion';
-
+import { motion } from 'framer-motion';
 
 const HeroSection = () => {
     return (
@@ -8,6 +7,7 @@ const HeroSection = () => {
             initial={{ opacity: 0, y: 150 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
+            layout // Ajout de `layout`
         >
             <div className="col-lg-7">
                 <h1 className='mainTitle fw-normal neutral-600'>See the NFT new world</h1>
@@ -20,9 +20,10 @@ const HeroSection = () => {
             <div className="col-lg-5 heroImage">
                 <div className="row pt-5">
                     <motion.div className="col-6"
-                        initial={{ opacity: 0, y: 50 }}
+                        initial={{ opacity: 0, y: 150 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1.5 }}
+                        transition={{ duration: 0.5 }}
+                        layout // Ajout de `layout`
                     >
                         <p className='text-end'>
                             <img src="./assets/icons/crown.svg" alt="" className='img-fluid' width={157.44} height={116.49} /><br />
@@ -30,13 +31,14 @@ const HeroSection = () => {
                         <img src="./assets/images/machine.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={300} height={400} />
                     </motion.div>
 
-                    <div className="col-6"
-                        initial={{ opacity: 0, y: 50 }}
+                    <motion.div className="col-6"
+                        initial={{ opacity: 0, y: 150 }}
                         animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 1.5 }}
+                        transition={{ duration: 0.5 }}
+                        layout // Ajout de `layout`
                     >
-                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={300} height={400}/>
-                    </div>
+                        <img src="./assets/images/monkey.webp" alt="" className='rounded-top-pill rounded-bottom-pill img-fluid' width={300} height={400} />
+                    </motion.div>
                 </div>
             </div>
         </motion.div>

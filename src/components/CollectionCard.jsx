@@ -3,8 +3,8 @@ import React from 'react';
 const CardComponent = ({ image, cardTitle }) => {
     return (
         <div class="col-lg-3 col-md-6 col-9">
-            <div class="card">
-                <div class="card2">
+            <div class="card card-collection">
+                <div class="card-color">
                     <img src={image} class="card-img-top img-fluid collectionImg object-fit-cover p-2 rounded-5" alt="Collection Image" width={258} height={213}/>
                     <div class="card-body">
                         <div class="card-text d-flex justify-content-between fw-semibold">
