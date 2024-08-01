@@ -15,7 +15,7 @@ const HeroSection = () => {
                         words={['See the NFT new world']}
                         loop={1}
                         cursor
-                        cursorStyle='|'
+                        cursorStyle=''
                         typeSpeed={70}
                         delaySpeed={1000}
                     />
