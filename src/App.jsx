@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <section className="container ps-0">
+      <section className="container">
         <HeroSection />
         <p className="fw-bold fs-4">Our Collection</p>
         <div className="d-flex justify-content-md-between fw-semibold align-items-end flex-wrap">
