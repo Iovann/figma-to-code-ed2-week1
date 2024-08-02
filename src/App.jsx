@@ -8,9 +8,9 @@ import { Collections, Sell } from "./common/data";
 import AnimatedSection from "./components/AnimateSection";
 function App() {
   return (
-    <>
+    <div className="border-start border-1 container ps-0">
       <Navbar />
-      <section className="container">
+      <section className="container ps-0">
         <HeroSection />
         <p className="fw-bold fs-4">Our Collection</p>
         <div className="d-flex justify-content-md-between fw-semibold align-items-end flex-wrap">
@@ -50,7 +50,7 @@ function App() {
         </div>
       </section>
       <Footer />
-    </>
+    </div>
   );
 }
 

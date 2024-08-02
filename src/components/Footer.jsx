@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='container pt-5 pb-3'>
+        <div className='container pt-5 pb-3 ps-0'>
             <p><img src="/assets/icons/logo.svg" className='img-fluid' alt="Logo" width={36} height={35.39}/></p>
             <hr />
             <div className="row justify-content-between">

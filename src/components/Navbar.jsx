@@ -9,7 +9,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <nav className="navbar navbar-expand-lg mb-5 shadow-none navbar-before-scroll py-3">
+            <nav className="navbar navbar-expand-lg mb-5 shadow-none navbar-before-scroll py-3 border-bottom border-1">
                 <div className="container">
                     <a className="navbar-brand align-items-center" href='#'>
                         <img src="/assets/icons/logo.svg" className='img-fluid' alt="Logo" width={36} height={35.39}/>
