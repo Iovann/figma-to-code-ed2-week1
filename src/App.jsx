@@ -8,20 +8,20 @@ import { Collections, Sell } from "./common/data";
 import AnimatedSection from "./components/AnimateSection";
 function App() {
   return (
-    <div className="border-start border-1 container ps-0">
+    <>
       <Navbar />
       <section className="container ps-0">
         <HeroSection />
         <p className="fw-bold fs-4">Our Collection</p>
         <div className="d-flex justify-content-md-between fw-semibold align-items-end flex-wrap">
-          <p className="d-flex align-items-end flex-wrap mb-3">
+          <div className="d-flex align-items-end flex-wrap mb-3">
             <button className="btn btn-dark px-lg-3 px-2 me-lg-2 me-1 mt-2 mt-md-2">All categories</button>
             <button className="btn px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 neutralBackground">Art</button>
             <button className="btn px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 neutralBackground">Celebrities</button>
             <button className="btn px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 neutralBackground">Gaming</button>
             <button className="btn px-lg-3 px-2 mx-lg-2 mx-1 mt-2 mt-md-2 neutralBackground">Sport</button>
             <p className="text-end text-decoration-underline link-offset-2-hover mx-2 d-md-none">View more</p>
-          </p>
+          </div>
           <p className="text-end text-decoration-underline link-offset-2-hover d-none d-md-inline">View more</p>
         </div>
 
@@ -50,7 +50,7 @@ function App() {
         </div>
       </section>
       <Footer />
-    </div>
+    </>
   );
 }
 

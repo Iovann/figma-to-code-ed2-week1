@@ -24,6 +24,10 @@ body {
   background-position: center;
 }
 
+.cursor{
+  cursor: pointer;
+}
+
 /* responsive */
 
 @media (min-width: 1200px) {
@@ -67,7 +71,7 @@ body {
 
 @media (max-width: 518px) {
   .mainTitle {
-    font-size: 52px !important;
+    font-size: 48px !important;
   }
 }
 

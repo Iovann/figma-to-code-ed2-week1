@@ -17,7 +17,7 @@ const HeroSection = () => {
                         cursor
                         cursorStyle=''
                         typeSpeed={70}
-                        delaySpeed={1000}
+                        delaySpeed={500}
                     />
                 </h1>
                 <p className='w-75'>Vorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, di</p>
